@@ -1,0 +1,187 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "DS.#####",
+ "creation": "2022-06-24 11:27:50.452700",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "direction",
+  "customer",
+  "consignee",
+  "column_break_5",
+  "transport",
+  "land_shipping",
+  "order_date",
+  "company",
+  "general_section",
+  "loading_port",
+  "discharging_port",
+  "voyage_no",
+  "column_break_14",
+  "operator",
+  "agent",
+  "section_break_17",
+  "freight_order_line",
+  "amended_from",
+  "section_break_20",
+  "expected_receive_date",
+  "actual_receive_date",
+  "party"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "direction",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Direction",
+   "options": "Import\nExport"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "consignee",
+   "fieldtype": "Link",
+   "label": "Consignee",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "transport",
+   "fieldtype": "Select",
+   "label": "Transport",
+   "options": "Land\nOcean\nAir"
+  },
+  {
+   "fieldname": "land_shipping",
+   "fieldtype": "Select",
+   "label": "Land Shipping",
+   "options": "FTL\nLTL"
+  },
+  {
+   "fieldname": "order_date",
+   "fieldtype": "Date",
+   "label": "Order Date"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "general_section",
+   "fieldtype": "Section Break",
+   "label": "General"
+  },
+  {
+   "fieldname": "loading_port",
+   "fieldtype": "Link",
+   "label": "Loading Port",
+   "options": "Freight Location"
+  },
+  {
+   "fieldname": "discharging_port",
+   "fieldtype": "Link",
+   "label": "Discharging Port",
+   "options": "Freight Location"
+  },
+  {
+   "fieldname": "voyage_no",
+   "fieldtype": "Int",
+   "label": "Voyage No"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "operator",
+   "fieldtype": "Data",
+   "label": "Operator"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Data",
+   "label": "Agent"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "freight_order_line",
+   "fieldtype": "Table",
+   "label": "Freight Order Line",
+   "options": "Freight Order Line"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Direct Shipping",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "expected_receive_date",
+   "fieldtype": "Date",
+   "label": "Expected Receive Date"
+  },
+  {
+   "fieldname": "actual_receive_date",
+   "fieldtype": "Date",
+   "label": "Actual Receive Date"
+  },
+  {
+   "fieldname": "party",
+   "fieldtype": "Data",
+   "label": "Party"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-30 10:04:57.838049",
+ "modified_by": "Administrator",
+ "module": "Freight Management",
+ "name": "Direct Shipping",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

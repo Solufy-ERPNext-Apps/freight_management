@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include freight_management *.css
+recursive-include freight_management *.csv
+recursive-include freight_management *.html
+recursive-include freight_management *.ico
+recursive-include freight_management *.js
+recursive-include freight_management *.json
+recursive-include freight_management *.md
+recursive-include freight_management *.png
+recursive-include freight_management *.py
+recursive-include freight_management *.svg
+recursive-include freight_management *.txt
+recursive-exclude freight_management *.pyc

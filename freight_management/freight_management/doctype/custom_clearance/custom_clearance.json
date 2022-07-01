@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CC.#####",
+ "creation": "2022-06-27 14:50:36.262972",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "freight_operation",
+  "date",
+  "agent",
+  "company",
+  "attach_document",
+  "amended_from",
+  "revision_reason"
+ ],
+ "fields": [
+  {
+   "fieldname": "freight_operation",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Freight Operation",
+   "options": "Direct Shipping"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Agent",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "attach_document",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attach Document "
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Custom Clearance",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval: workflow_state = \"Revision\"||workflow_state = \"Approved\"",
+   "fieldname": "revision_reason",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Revision Reason"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-30 14:33:24.560445",
+ "modified_by": "Administrator",
+ "module": "Freight Management",
+ "name": "Custom Clearance",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

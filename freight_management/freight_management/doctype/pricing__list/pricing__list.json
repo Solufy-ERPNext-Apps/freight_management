@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PL.#####",
+ "creation": "2022-06-24 12:33:01.257129",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "volume_price",
+  "weight_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "volume_price",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Volume Price"
+  },
+  {
+   "fieldname": "weight_price",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Weight Price"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-27 16:49:38.940272",
+ "modified_by": "Administrator",
+ "module": "Freight Management",
+ "name": "Pricing  List",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
