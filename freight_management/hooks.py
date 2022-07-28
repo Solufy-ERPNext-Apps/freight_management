@@ -64,6 +64,7 @@ fixtures = [{
 
 # before_install = "freight_management.install.before_install"
 # after_install = "freight_management.install.after_install"
+after_sync = "freight_management.sync.after_sync"
 
 # Uninstallation
 # ------------
