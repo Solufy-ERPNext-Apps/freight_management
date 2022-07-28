@@ -1,4 +1,1 @@
-[pre_model_sync]
-
-[post_model_sync]
 freight_management.patches.install_missing_workflow_states
