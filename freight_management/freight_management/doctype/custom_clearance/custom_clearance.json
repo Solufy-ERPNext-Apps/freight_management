@@ -7,6 +7,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "workflow_state",
   "freight_operation",
   "date",
   "agent",
@@ -59,16 +60,23 @@
    "read_only": 1
   },
   {
-   "depends_on": "eval: workflow_state = \"Revision\"||workflow_state = \"Approved\"",
+   "depends_on": "eval: doc.workflow_state == \"Revision\" || doc.workflow_state == \"Approved\"",
    "fieldname": "revision_reason",
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Revision Reason"
+  },
+  {
+   "fieldname": "workflow_state",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Workflow State",
+   "options": "Workflow State"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-30 14:33:24.560445",
+ "modified": "2022-08-03 14:27:22.929340",
  "modified_by": "Administrator",
  "module": "Freight Management",
  "name": "Custom Clearance",

@@ -13,8 +13,11 @@ app_license = "MIT"
 # ------------------
 
 fixtures = [{
-		"doctype": "Workflow"
-		},
+				"doctype": "Workflow"
+			},
+			{
+				"doctype": "Workflow State"
+			}
 	]
 
 # include js, css files in header of desk.html
