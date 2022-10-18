@@ -16,6 +16,7 @@ freight_management/config/__init__.py
 freight_management/config/desktop.py
 freight_management/config/docs.py
 freight_management/fixtures/workflow.json
+freight_management/fixtures/workflow_state.json
 freight_management/freight_management/__init__.py
 freight_management/freight_management/doctype/__init__.py
 freight_management/freight_management/doctype/airlines/__init__.py
