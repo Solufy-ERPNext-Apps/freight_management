@@ -1,0 +1,156 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-08-29 17:11:27.242089",
+  "name": "Approve",
+  "workflow_action_name": "Approve"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-08-29 17:11:27.243749",
+  "name": "Reject",
+  "workflow_action_name": "Reject"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-08-29 17:11:27.245352",
+  "name": "Review",
+  "workflow_action_name": "Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-09-12 16:40:41.390175",
+  "name": "Visa Used",
+  "workflow_action_name": "Visa Used"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-09-12 16:41:18.464865",
+  "name": "Expired",
+  "workflow_action_name": "Expired"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-09-12 16:41:37.116180",
+  "name": "Expire",
+  "workflow_action_name": "Expire"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-09-12 16:51:15.306976",
+  "name": "Visa Use",
+  "workflow_action_name": "Visa Use"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-09-12 16:52:52.747018",
+  "name": "Return",
+  "workflow_action_name": "Return"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-10-11 17:33:01.628476",
+  "name": "Visa",
+  "workflow_action_name": "Visa"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-10-12 11:25:04.612975",
+  "name": "Approve for Visa",
+  "workflow_action_name": "Approve for Visa"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-10-12 11:29:46.207723",
+  "name": "Visa Process",
+  "workflow_action_name": "Visa Process"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-10-12 15:13:50.605288",
+  "name": "Apply for immigration",
+  "workflow_action_name": "Apply for immigration"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-10-13 10:17:45.857034",
+  "name": "Offer Letter",
+  "workflow_action_name": "Offer Letter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-10-31 17:17:46.927355",
+  "name": "Register",
+  "workflow_action_name": "Register"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-10-31 17:18:16.330938",
+  "name": "Downgrade",
+  "workflow_action_name": "Downgrade"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-10-31 17:18:45.588805",
+  "name": "Reserve",
+  "workflow_action_name": "Reserve"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-10-31 17:19:26.707603",
+  "name": "Pending",
+  "workflow_action_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-11-01 17:45:20.834835",
+  "name": "Set to Done",
+  "workflow_action_name": "Set to Done"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-11-01 17:47:00.745139",
+  "name": "Cancel",
+  "workflow_action_name": "Cancel"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-11-01 17:53:45.826744",
+  "name": "Reset to Draft",
+  "workflow_action_name": "Reset to Draft"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-11-07 15:14:23.707491",
+  "name": "Start Contract",
+  "workflow_action_name": "Start Contract"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-11-07 15:14:51.270039",
+  "name": "Close",
+  "workflow_action_name": "Close"
+ }
+]

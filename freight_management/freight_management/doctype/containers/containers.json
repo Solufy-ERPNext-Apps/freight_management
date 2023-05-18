@@ -36,8 +36,9 @@
   },
   {
    "fieldname": "size_uom",
-   "fieldtype": "Data",
-   "label": "Size UOM"
+   "fieldtype": "Link",
+   "label": "Size UOM",
+   "options": "UOM"
   },
   {
    "fieldname": "weight",

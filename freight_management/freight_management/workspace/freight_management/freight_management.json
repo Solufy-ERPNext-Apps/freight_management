@@ -1,25 +1,21 @@
 {
- "category": "Modules",
  "charts": [],
- "creation": "2022-06-24 12:05:29.000153",
- "developer_mode_only": 0,
- "disable_user_customization": 0,
+ "content": "[{\"id\":\"NqV_6OsUDz\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Freight Management</span>\",\"col\":12}},{\"id\":\"zt44To-NDn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Direct Shipping\",\"col\":3}},{\"id\":\"jV9fId1Wlo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Custom Clearance\",\"col\":3}},{\"id\":\"SCwrHKvBg1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Custom Revision\",\"col\":3}},{\"id\":\"bB9q5PI9Cm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Track Shipping Order\",\"col\":3}},{\"id\":\"YcpC3tjFY_\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"eFQGfUVITv\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Reports &amp; Masters</span>\",\"col\":12}},{\"id\":\"lDMD3A_3Ul\",\"type\":\"card\",\"data\":{\"card_name\":\"Configurations\",\"col\":4}}]",
+ "creation": "2023-05-17 16:35:35.561400",
  "docstatus": 0,
  "doctype": "Workspace",
- "extends_another_page": 0,
+ "for_user": "",
  "hide_custom": 0,
- "icon": "",
+ "icon": "folder-normal",
  "idx": 0,
- "is_default": 0,
- "is_standard": 1,
+ "is_hidden": 0,
  "label": "Freight Management",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
    "label": "Configurations",
-   "link_to": "",
-   "link_type": "DocType",
+   "link_count": 5,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -27,6 +23,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Freight Location",
+   "link_count": 0,
    "link_to": "Freight Location",
    "link_type": "DocType",
    "onboard": 0,
@@ -36,6 +33,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Vessels",
+   "link_count": 0,
    "link_to": "Vessels",
    "link_type": "DocType",
    "onboard": 0,
@@ -45,6 +43,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Airlines",
+   "link_count": 0,
    "link_to": "Airlines",
    "link_type": "DocType",
    "onboard": 0,
@@ -54,6 +53,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Containers",
+   "link_count": 0,
    "link_to": "Containers",
    "link_type": "DocType",
    "onboard": 0,
@@ -62,45 +62,58 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Pricing List",
+   "label": "Pricing  List",
+   "link_count": 0,
    "link_to": "Pricing  List",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2022-06-29 11:49:37.785872",
+ "modified": "2023-05-17 17:12:10.057880",
  "modified_by": "Administrator",
  "module": "Freight Management",
  "name": "Freight Management",
- "onboarding": "",
+ "number_cards": [],
  "owner": "Administrator",
- "pin_to_bottom": 0,
- "pin_to_top": 0,
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
  "shortcuts": [
   {
+   "color": "Green",
    "doc_view": "List",
    "label": "Direct Shipping",
    "link_to": "Direct Shipping",
+   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
    "type": "DocType"
   },
   {
+   "color": "Green",
    "doc_view": "List",
    "label": "Custom Clearance",
    "link_to": "Custom Clearance",
+   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
    "type": "DocType"
   },
   {
+   "color": "Green",
    "doc_view": "List",
    "label": "Custom Revision",
    "link_to": "Custom Revision",
+   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
    "type": "DocType"
   },
   {
+   "color": "Green",
    "doc_view": "List",
    "label": "Track Shipping Order",
    "link_to": "Track Shipping Order",
+   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
    "type": "DocType"
   }
- ]
+ ],
+ "title": "Freight Management"
 }

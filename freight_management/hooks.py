@@ -13,12 +13,20 @@ app_license = "MIT"
 # ------------------
 
 fixtures = [{
-				"doctype": "Workflow"
-			},
-			{
-				"doctype": "Workflow State"
-			}
-	]
+    "doctype": "Workflow",
+        "filters": {
+            "name": [ "in", ["Direct Shipping Workflow"] ]
+            }
+        },
+        {
+    "doctype": "Workflow State"
+    },
+     {
+    "doctype": "Workflow Action Master"
+    }
+    ]
+
+
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/freight_management/css/freight_management.css"
