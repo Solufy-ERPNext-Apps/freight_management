@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"NqV_6OsUDz\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Freight Management</span>\",\"col\":12}},{\"id\":\"zt44To-NDn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Direct Shipping\",\"col\":3}},{\"id\":\"jV9fId1Wlo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Custom Clearance\",\"col\":3}},{\"id\":\"SCwrHKvBg1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Custom Revision\",\"col\":3}},{\"id\":\"bB9q5PI9Cm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Track Shipping Order\",\"col\":3}},{\"id\":\"YcpC3tjFY_\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"eFQGfUVITv\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Reports &amp; Masters</span>\",\"col\":12}},{\"id\":\"lDMD3A_3Ul\",\"type\":\"card\",\"data\":{\"card_name\":\"Configurations\",\"col\":4}}]",
+ "content": "[{\"id\":\"NqV_6OsUDz\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Freight Management</span>\",\"col\":12}},{\"id\":\"zt44To-NDn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Direct Shipping\",\"col\":3}},{\"id\":\"jV9fId1Wlo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Custom Clearance\",\"col\":3}},{\"id\":\"SCwrHKvBg1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Custom Revision\",\"col\":3}},{\"id\":\"bB9q5PI9Cm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Track Shipping Order\",\"col\":3}},{\"id\":\"YcpC3tjFY_\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"lDMD3A_3Ul\",\"type\":\"card\",\"data\":{\"card_name\":\"Configurations\",\"col\":4}}]",
  "creation": "2023-05-17 16:35:35.561400",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -70,7 +70,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-05-17 17:12:10.057880",
+ "modified": "2023-06-01 12:37:04.502465",
  "modified_by": "Administrator",
  "module": "Freight Management",
  "name": "Freight Management",
