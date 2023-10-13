@@ -2,38 +2,272 @@
  {
   "docstatus": 0,
   "doctype": "Workflow State",
-  "icon": "question-sign",
-  "modified": "2022-08-03 11:53:40.731299",
-  "name": "Pending",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
-  "style": "Warning",
-  "workflow_state_name": "Pending"
+  "icon": "",
+  "modified": "2022-11-23 16:47:38.462370",
+  "name": "Assigned",
+  "style": "",
+  "workflow_state_name": "Assigned"
  },
  {
   "docstatus": 0,
   "doctype": "Workflow State",
-  "icon": "ok-sign",
-  "modified": "2022-07-27 16:24:23.971985",
-  "name": "Approved",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
+  "icon": "",
+  "modified": "2022-11-23 16:48:05.289504",
+  "name": "Work In Progress",
+  "style": "",
+  "workflow_state_name": "Work In Progress"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-23 16:49:14.278825",
+  "name": "Needs Reply",
+  "style": "",
+  "workflow_state_name": "Needs Reply"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-23 16:49:28.657776",
+  "name": "Reopened",
+  "style": "",
+  "workflow_state_name": "Reopened"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-23 16:49:53.167913",
+  "name": "Solution Suggested",
+  "style": "",
+  "workflow_state_name": "Solution Suggested"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-30 14:42:36.625601",
+  "name": "Submitted",
+  "style": "",
+  "workflow_state_name": "Submitted"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-01 10:29:49.657682",
+  "name": "Assign to Technician",
+  "style": "",
+  "workflow_state_name": "Assign to Technician"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-10-31 17:15:13.878816",
+  "name": "Registered",
   "style": "Success",
-  "workflow_state_name": "Approved"
+  "workflow_state_name": "Registered"
  },
  {
   "docstatus": 0,
   "doctype": "Workflow State",
-  "icon": "remove",
-  "modified": "2022-07-27 16:24:23.975539",
-  "name": "Rejected",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
+  "icon": "",
+  "modified": "2022-10-31 17:15:56.944505",
+  "name": "Downgraded",
   "style": "Danger",
-  "workflow_state_name": "Rejected"
+  "workflow_state_name": "Downgraded"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-10-31 17:16:18.867447",
+  "name": "Reserve",
+  "style": "",
+  "workflow_state_name": "Reserve"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-10-31 17:16:57.326576",
+  "name": "Waiting List",
+  "style": "Info",
+  "workflow_state_name": "Waiting List"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-01 17:40:42.587490",
+  "name": "New",
+  "style": "Primary",
+  "workflow_state_name": "New"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-01 17:41:38.053380",
+  "name": "Cancel",
+  "style": "Danger",
+  "workflow_state_name": "Cancel"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-01 17:44:42.642604",
+  "name": "Reserved",
+  "style": "",
+  "workflow_state_name": "Reserved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-01 17:46:50.762094",
+  "name": "Cancelled",
+  "style": "",
+  "workflow_state_name": "Cancelled"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-02 12:45:20.689496",
+  "name": "To Do",
+  "style": "",
+  "workflow_state_name": "To Do"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-02 12:45:34.641116",
+  "name": "Running",
+  "style": "",
+  "workflow_state_name": "Running"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-07 15:13:58.255583",
+  "name": "Closed",
+  "style": "",
+  "workflow_state_name": "Closed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-10-11 12:55:02.527382",
+  "name": "Application",
+  "style": "",
+  "workflow_state_name": "Application"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-10-11 12:55:27.533080",
+  "name": "University Process",
+  "style": "",
+  "workflow_state_name": "University Process"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-10-11 12:55:35.033737",
+  "name": "Visa",
+  "style": "",
+  "workflow_state_name": "Visa"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-10-11 17:06:40.205405",
+  "name": "Offer Letter",
+  "style": "",
+  "workflow_state_name": "Offer Letter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-10-11 17:35:01.241965",
+  "name": "Got Visa",
+  "style": "",
+  "workflow_state_name": "Got Visa"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-10-12 14:34:23.182821",
+  "name": "Apply for Coaching",
+  "style": "",
+  "workflow_state_name": "Apply for Coaching"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-10-12 14:35:50.229123",
+  "name": "Register Student",
+  "style": "",
+  "workflow_state_name": "Register Student"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-09-12 17:00:34.094589",
+  "name": "Visa Use",
+  "style": "Success",
+  "workflow_state_name": "Visa Use"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-09-12 16:39:15.475540",
+  "name": "Return",
+  "style": "",
+  "workflow_state_name": "Return"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-09-12 17:00:26.820794",
+  "name": "Expire",
+  "style": "Warning",
+  "workflow_state_name": "Expire"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-07 15:13:30.456681",
+  "name": "Incoming",
+  "style": "",
+  "workflow_state_name": "Incoming"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-07 15:13:48.900270",
+  "name": "Expired",
+  "style": "",
+  "workflow_state_name": "Expired"
  },
  {
   "docstatus": 0,
@@ -41,9 +275,6 @@
   "icon": "",
   "modified": "2022-08-03 11:51:31.636806",
   "name": "In Progress",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
   "style": "Warning",
   "workflow_state_name": "In Progress"
  },
@@ -53,9 +284,6 @@
   "icon": "",
   "modified": "2022-08-03 11:48:41.856307",
   "name": "Done",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
   "style": "Success",
   "workflow_state_name": "Done"
  },
@@ -65,9 +293,6 @@
   "icon": "",
   "modified": "2022-08-03 11:52:59.306193",
   "name": "Draft",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
   "style": "Danger",
   "workflow_state_name": "Draft"
  },
@@ -77,9 +302,6 @@
   "icon": "",
   "modified": "2022-08-03 11:50:38.716280",
   "name": "Revision",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
   "style": "Warning",
   "workflow_state_name": "Revision"
  },
@@ -89,9 +311,6 @@
   "icon": "",
   "modified": "2022-08-03 11:55:59.368907",
   "name": "Received",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
   "style": "Success",
   "workflow_state_name": "Received"
  },
@@ -101,9 +320,6 @@
   "icon": "",
   "modified": "2022-08-03 11:52:33.157092",
   "name": "In Transit",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
   "style": "Inverse",
   "workflow_state_name": "In Transit"
  },
@@ -113,10 +329,43 @@
   "icon": "",
   "modified": "2022-08-03 11:55:54.028632",
   "name": "Delivered",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
   "style": "Success",
   "workflow_state_name": "Delivered"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2022-09-29 14:18:15.188539",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2022-09-29 14:18:15.191505",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2022-09-29 14:18:15.193480",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-11-22 12:19:32.885472",
+  "name": "Requested",
+  "style": "",
+  "workflow_state_name": "Requested"
  }
 ]

@@ -39,9 +39,9 @@
   },
   {
    "fieldname": "state",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "State",
-   "options": "S1\nS2"
+   "options": "State"
   },
   {
    "default": "0",
